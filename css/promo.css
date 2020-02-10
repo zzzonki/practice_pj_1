@@ -1,0 +1,57 @@
+.promo{
+    width: 1500px;
+    height: 560px;
+    background-image: linear-gradient(to top, rgba(19, 5, 35, 0.51), rgba(19, 5, 35, 0.51)), url('../photos/top.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 35%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.acrion_name{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Roboto", sans-serif;
+}
+.action_name__h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-bottom: 100px;
+}
+.action_name__h1 h1{
+    font-size: 59px;
+    margin: 0;
+
+}
+.action_name__h1 h3{
+    margin: 0;
+    font-size: 28px;
+}
+.action_name__arrow{
+    border: solid rgb(112, 157, 202) 2px;
+    border-radius: 50%;
+    width: 47px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffc155;
+}
+.action__btn{
+    border-radius: 6px;
+    background-color: rgb(112, 157, 202);
+    width: 188px;
+    height: 49px;  
+    text-decoration: uppercase;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

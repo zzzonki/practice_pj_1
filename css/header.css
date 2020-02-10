@@ -1,0 +1,44 @@
+.header{
+    position: absolute;
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+    
+}
+.logo__img{
+    width: 65px;
+    height: 65px;
+    background-image: url('../icons/spasskaya-tower.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.logo__name{
+    color: #ffdb47;
+    font-size: 36px;
+    font-family: "MV Boli";
+    text-align: center;
+}
+.nav{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 14.5px;
+    font-family: "Roboto", sans-serif;
+      
+}
