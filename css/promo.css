@@ -1,5 +1,5 @@
 .promo{
-    width: 1500px;
+    width: 100vw;
     height: 560px;
     background-image: linear-gradient(to top, rgba(19, 5, 35, 0.51), rgba(19, 5, 35, 0.51)), url('../photos/top.jpg');
     background-repeat: no-repeat;
@@ -12,11 +12,12 @@
     align-items: center;
 }
 .acrion_name{
-    width: 1200px;
+    width: 1130px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    font-family: "Roboto", sans-serif;
+    justify-content: space-between;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0 35px;
 }
 .action_name__h1{
     display: flex;
@@ -48,10 +49,14 @@
     border-radius: 6px;
     background-color: rgb(112, 157, 202);
     width: 188px;
-    height: 49px;  
-    text-decoration: uppercase;
+    height: 49px;
+    font-family: 'Roboto Condensed', sans-serif;  
+    text-transform: uppercase;
     font-size: 17px;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* TODO отцентрировать заголовок и кнопку */

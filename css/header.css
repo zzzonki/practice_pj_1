@@ -7,10 +7,11 @@
     justify-content: center;
 }
 .wrapper{
-    width: 1200px;
+    width: 1130px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 35px;
 }
 .logo{
     display: flex;
@@ -33,12 +34,11 @@
 .nav{
     width: 500px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .nav a{
     text-decoration: none;
     color: white;
     font-size: 14.5px;
-    font-family: "Roboto", sans-serif;
-      
+    font-family: 'Roboto Condensed', sans-serif;  
 }
