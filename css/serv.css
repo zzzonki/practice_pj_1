@@ -52,7 +52,7 @@
     margin-top: 15px;
     margin-right: 10px;
 }
-.serv__pic:nth-child(1){
+/* .serv__pic:nth-child(1){
     background-image: url(../icons/map.png);
 }
 .serv__pic:nth-child(2){
@@ -69,7 +69,7 @@
 }
 .serv__pic:nth-child(6){
     background-image: url(../icons/sun.png);
-}
+} */
 /* TODO Сделать картинки разными
 nth-child на классы не работает */
 .serv__article h3 {
