@@ -1,5 +1,5 @@
 .serv{
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,29 +52,9 @@
     margin-top: 15px;
     margin-right: 10px;
 }
-/* .serv__pic:nth-child(1){
-    background-image: url(../icons/map.png);
-}
-.serv__pic:nth-child(2){
-    background-image: url(../icons/souvenir.png);
-}
-.serv__pic:nth-child(3){
-    background-image: url(../icons/compass.png);
-}
-.serv__pic:nth-child(4){
-    background-image: url(../icons/picture.png);
-}
-.serv__pic:nth-child(5){
-    background-image: url(../icons/discussion.png);
-}
-.serv__pic:nth-child(6){
-    background-image: url(../icons/sun.png);
-} */
-/* TODO Сделать картинки разными
-nth-child на классы не работает */
 .serv__article h3 {
     font-size: 16px;
-    font-family: "Myriad Pro";
+    font-family: myriad-pro, sans-serif;
     color: rgb(57, 75, 80);
     text-transform: uppercase;
     line-height: 1.375;
@@ -82,7 +62,7 @@ nth-child на классы не работает */
   }
   .serv__article p {
     font-size: 13px;
-    font-family: "Myriad Pro";
+    font-family: myriad-pro, sans-serif;
     color: rgb(123, 123, 123);
     line-height: 1.692;
     text-align: left;

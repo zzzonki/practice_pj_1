@@ -1,0 +1,38 @@
+.photos_header{
+    height: 335px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.photos_header__h3{
+    font-size: 28px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(112, 157, 202);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.photos_header hr {
+    background-color: rgb(255, 193, 85);
+    width: 219px;
+    height: 1px;
+    border: 0;
+}
+.photos_header p {
+    font-size: 17px;
+    font-family: myriad-pro, sans-serif;
+    color: rgba(6, 32, 51, 0.8);
+    line-height: 1.411;
+    text-align: center;
+}
+  
+.photos_pics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photos_pics__line{
+    min-width: 1500px;
+}
+  
