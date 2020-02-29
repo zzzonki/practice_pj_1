@@ -8,7 +8,7 @@
 }
 .photos_header__h3{
     font-size: 28px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     color: rgb(112, 157, 202);
     text-transform: uppercase;
     line-height: 1.2;
@@ -18,6 +18,8 @@
     width: 219px;
     height: 1px;
     border: 0;
+    margin-top: 23px;
+    margin-bottom: 17px;
 }
 .photos_header p {
     font-size: 17px;
@@ -26,7 +28,7 @@
     line-height: 1.411;
     text-align: center;
 }
-  
+
 .photos_pics{
     display: flex;
     flex-direction: column;
@@ -34,5 +36,13 @@
 }
 .photos_pics__line{
     min-width: 1500px;
+    width: 100%;
+    /* Можно оставить точное значение ширины, чтобы изображения не ужимались при отдалении, но так лучше */
+    display: flex;
 }
-  
+.photos_pics__item{
+    width: 25%;
+    min-height: 285px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
