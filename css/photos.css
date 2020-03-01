@@ -6,19 +6,21 @@
     align-items: center;
     justify-content: center;
 }
-.photos_header__h3{
+.photos_header h2{
     font-size: 28px;
     font-family: "Roboto Condensed", sans-serif;
     color: rgb(112, 157, 202);
     text-transform: uppercase;
     line-height: 1.2;
+    text-align: center; 
+    margin: 0;  
 }
-.photos_header hr {
+.line {
     background-color: rgb(255, 193, 85);
     width: 219px;
     height: 1px;
     border: 0;
-    margin-top: 23px;
+    margin-top: 24px;
     margin-bottom: 17px;
 }
 .photos_header p {

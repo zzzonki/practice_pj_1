@@ -25,3 +25,12 @@ for (let i = 0; i < photos_pics__item.length; i++) {
         photos_pics__item[7].style.backgroundImage = "url(../photos/5.jpg)"
 
 }
+
+let feedback_item__pic = document.querySelectorAll(".feedback_item__pic")
+
+for (let i = 0; i < feedback_item__pic.length; i++){
+
+        feedback_item__pic[0].style.backgroundImage = "url(../testimonials/test2.jpg)"
+        feedback_item__pic[1].style.backgroundImage = "url(../testimonials/test1.jpg)"
+
+}
