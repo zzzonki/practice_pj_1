@@ -1,0 +1,70 @@
+.form{
+    width: 100%;
+    height: 460px;
+    background-color: rgba(39, 58, 67, 0.078);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.form_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.form_header h2 {
+    font-size: 26px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(112, 157, 202);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center; 
+    margin: 0;
+}
+
+.form_wrapper{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 14px;
+}
+.form_wrapper__unit{
+    width: 568px;
+    height: 166px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.form_field{
+    height: 40px;
+    border: solid rgb(255, 193, 85) 4px;
+    padding: 0 10px 0 10px;
+    font-size: 26px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.form_msg{
+    height: 158px;
+    border: solid rgb(255, 193, 85) 4px;
+    padding: 0 10px 0 10px;
+    font-size: 26px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.form_button{
+    height: 48px;
+    width: 568px;
+    border: solid rgb(255, 193, 85) 4px;
+    font-size: 26px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 5px;
+    color: white;
+    background-color: #273a43;
+}
