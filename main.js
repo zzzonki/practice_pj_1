@@ -34,3 +34,22 @@ for (let i = 0; i < feedback_item__pic.length; i++){
         feedback_item__pic[1].style.backgroundImage = "url(../testimonials/test1.jpg)"
 
 }
+
+let contacts_pic = document.querySelectorAll(".contacts_pic")
+
+for (let i = 0; i < contacts_pic.length; i++) {
+
+        contacts_pic[0].style.backgroundImage = "url(../icons/placeholder.png)"
+        contacts_pic[1].style.backgroundImage = "url(../icons/mail.png)"
+        contacts_pic[2].style.backgroundImage = "url(../icons/telephone.png)"
+        
+}
+
+let soc_pic = document.querySelectorAll(".soc_pic")
+
+for (let i = 0; i < soc_pic.length; i++) {
+        soc_pic[0].style.backgroundImage = "url(../social/vk.png)"
+        soc_pic[1].style.backgroundImage = "url(../social/facebook.png)"
+        soc_pic[2].style.backgroundImage = "url(../social/instagram.png)"
+        
+}
